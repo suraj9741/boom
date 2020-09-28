@@ -1,0 +1,25 @@
+-------------create git bash in desktop
+$ mkdir Employee_Wage_Computation_Problem
+$ cd Employee_Wage_Computation_Problem/
+$ ls -a
+$ nano empWageComputation.sh
+$ git init
+$ git add .
+$ git commit -m "adding files"      : adding comment with commite
+$ git branch -M master              : create master branch
+$ git remote add origin https://github.com/suraj9741/Employee_Wage_Computation_Problem.git     : accesss master branch by remote
+$ git push -u origin master         : push on git hub
+------------------------------------------------------------------------------------------------------
+--------------create new branch
+$ git checkout -b UC-1-EmployeeAttendance     : create new branch with go on that location
+$ git branch                                  : check the branch you present
+$ git status				      : check the status of that branch what u chnage
+$ git add .				      : add all files for commite or u can use file name only so u cant add only file
+$ git commit -m "Add Attendance"
+$ git push -u origin UC-1-EmployeeAttendance  : push on created branch by using branch name after origin
+------------------------------------------------------------------------------------------------------
+--------------mearge branch
+$ git checkout master			      : go on master branch
+$ git branch				      
+$ git merge UC-1-EmployeeAttendance	      : merge branch by using branch name 
+$ git push -u origin master		      : push on master branch or which name on that
